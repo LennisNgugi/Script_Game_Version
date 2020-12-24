@@ -1,3 +1,6 @@
+#-*- mode: python -*-
+# -*- coding: utf-8 -*-
+
 from sys import exit
 
 you_the_reader = True
@@ -16,7 +19,7 @@ def bus():
     if "yes" is choice:
         umbrella()
     elif "no" is choice:
-        start_again("The only works if you use the sun umbrella, sorry I didn't write the script.")
+        start_again("This only works if you use the sun umbrella, sorry I didn't write the script.")
 
 #The sun umbrella
 def umbrella():
@@ -27,6 +30,3 @@ def umbrella():
     choice = raw_input("Press enter to continued: > ");
     if "" is choice:
         start_again()
-    
-
- 
